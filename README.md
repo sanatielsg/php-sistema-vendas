@@ -8,3 +8,4 @@ Tecnologias utilizadas:
 * Javascript ES6
 
 Para rodar o projeto será utilizado o XAMPP v7.4.33.
+* copiar a pasta /php-sistema-vendas para a pasta no XAMPP em C:\xampp\htdocs.
