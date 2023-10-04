@@ -1,3 +1,4 @@
+/* Aqui começa o css do login */
 html {
     background-color: #95a5a6;
     font-family: Arial, Helvetica, sans-serif;
@@ -75,3 +76,6 @@ legend {
 .btn__apagar {
     background-color: rgb(128, 43, 56);
 }
+
+/* Aqui termina o css do login */
+
