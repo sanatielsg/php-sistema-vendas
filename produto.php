@@ -19,7 +19,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    
+
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Cadastro
@@ -32,7 +32,7 @@
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                
+
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -47,11 +47,11 @@
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                
+
                             </ul>
                         </li>
                     </ul>
-                    
+
                 </div>
             </div>
         </nav>
@@ -62,25 +62,42 @@
         </legend>
         <form>
             <label for="codigo">Código</label> <br>
-            <input class="form-control" type="text" name="codigo" id="codigo" disabled> <br>
+            <input class="form-control" type="text" name="codigo" id="codigo" disabled>
 
-            <label for="nome">Nome completo</label> <br>
-            <input class="form-control" type="text" name="nome" id="nome" required> <br>
+            <label for="nome">Descrição</label> <br>
+            <input class="form-control" type="text" name="nome" id="nome" required>
 
-            <label for="usuario">Usuário</label> <br>
-            <input class="form-control" type="text" name="usuario" id="usuario" required> <br>
+            <label for="usuario">EAN</label> <br>
+            <input class="form-control" type="text" name="usuario" id="usuario" required>
 
-            <label for="senha">Senha</label> <br>
-            <input class="form-control" type="password" name="senha" id="senha" required> <br>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                    ATIVO
+                </label>
+            </div>
+           
+
+            
+            <label for="preco1">Preco1</label>
+            <input class="form-control" type="text" name="preco1" id="preco1" required>
+
+            <label for="preco2">Preco2</label>
+            <input class="form-control"  type="text" name="preco2" id="preco2" required>
+
+            <label for="preco3">Preco3</label>
+            <input class="form-control"  type="text" name="preco3" id="preco3" required>
 
             <label for="data_hora">Data cadastro</label> <br>
-            <input type="datetime-local" name="data_hora" id="data_hora" required> <br> <br>
+            <input type="datetime-local" name="data_hora" id="data_hora" required> 
+
             <div class="d-flex justify-content-center">
                 <button class="btn btn-outline-primary btn3">Salvar</button>
                 <button class="btn btn-outline-warning mr-2">Editar</button>
                 <button class="btn btn-outline-success">Cancelar</button>
                 <button class="btn btn-outline-danger">Deletar</button>
             </div>
+
         </form>
     </fieldset>
     <script src="./assets/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
